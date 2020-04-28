@@ -1,0 +1,35 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~reset-css/reset.css";
+@import "~swiper/swiper";
+@import "../fonts/stylesheet";
+body{
+  font-family: 'Open Sans', sans-serif;
+  background: #FFFFFF;
+  overflow-x: hidden;
+}
+p,h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+
+input,
+button,
+textarea{
+  outline: none;
+  &:focus{
+    outline: none;
+  }
+}
+.wrapper{
+  overflow-x: hidden;
+}
+
+.title-text{
+  font-family: 'ASPHALTIC GRAIN(RUS BY LYAJKA)';
+}
+
+// Custom reset
+@import "reset";
+
+// Main page
+@import "main";
+
