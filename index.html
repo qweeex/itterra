@@ -64,7 +64,25 @@
             </div>
           </div>
         </div>
+        <div class="header-mobileMenu">
+          <ul class="header-nav">
+            <li><a href="" class="header-nav__link">About us</a></li>
+            <li><a href="" class="header-nav__link">Catalog</a></li>
+            <li><a href="" class="header-nav__link">Buy</a></li>
+            <li><a href="" class="header-nav__link">Production</a></li>
+            <li><a href="" class="header-nav__link">Contacts</a></li>
+          </ul>
+          <div class="header-phone">
+            <a href="tel:+421259396110" class="header-phone__tel">+421 2 59 39 6110</a>
+          </div>
+          <div class="header-email">
+            <a href="mailto:info@itterra.eu" class="header-email__adress">
+              info@itterra.eu
+            </a>
+          </div>
+        </div>
       </header>
+
       <div class="slider swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide" style="background: url('../../img/slider.png')">
@@ -691,7 +709,9 @@
                     <p>
                       <span>
                         Logic and service
-                        <img src="../../img/info.png" alt="" />
+                        <a href="#ex1" rel="modal:open">
+                          <img src="../../img/info.png" alt="" />
+                        </a>
                       </span>
                     </p>
                   </div>
@@ -711,7 +731,9 @@
                     <p>
                       <span>
                         Quality, safety, ecology
-                        <img src="../../img/info.png" alt="" />
+                        <a href="#ex2" rel="modal:open">
+                          <img src="../../img/info.png" alt="" />
+                        </a>
                       </span>
                     </p>
                   </div>
@@ -731,7 +753,9 @@
                     <p>
                       <span>
                         Technological possibilities
-                        <img src="../../img/info.png" alt="" />
+                        <a href="#ex3" rel="modal:open">
+                          <img src="../../img/info.png" alt="" />
+                        </a>
                       </span>
                     </p>
                   </div>
@@ -849,6 +873,77 @@
           </div>
         </div>
       </div>
+      <div class="advantage-modal" id="ex1" class="modal">
+        <div class="modal-wrapper">
+          <div class="modal-close">
+            <a href="#" rel="modal:close" class="modal-close__btn">
+              <img src="../../img/modal-close.png" alt="" />
+            </a>
+          </div>
+          <div class="modal-title">
+            <p>TECHNOLOGICAL POSSIBILITIES</p>
+          </div>
+          <div class="modal-desc">
+            <p>
+              Our company is a mid-level manufacturer, which provides a middle ground between the flexibility of a small
+              company and the reliability of a large manufacturer.
+            </p>
+          </div>
+          <div class="modal-info">
+            <ul>
+              <li>FULL PRODUCTION CYCLE</li>
+              <li>PRINT OF ANY COMPLEXITY</li>
+              <li>BEST EQUIPMENT IN THE INDUSTRY</li>
+              <li>production of more than 3,000<br />tonnes of paper per year</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="advantage-modal" id="ex2" class="modal">
+        <div class="modal-wrapper">
+          <div class="modal-close">
+            <a href="#" rel="modal:close" class="modal-close__btn">
+              <img src="../../img/modal-close.png" alt="" />
+            </a>
+          </div>
+          <div class="modal-title">
+            <p>Quality, safety, ecology</p>
+          </div>
+          <div class="modal-desc">
+            <p>We are constantly improving our processes to ensure the quality and safety of our products.</p>
+          </div>
+          <div class="modal-info">
+            <ul>
+              <li>FOOD PACKAGING-CERTIFIED RAW MATERIALS</li>
+              <li>WASTE PRODUCTION IS REPROCESSED IN THE<br />SECOND PRODUCTS FOR NON-FOOD PRODUCTS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="advantage-modal" id="ex3" class="modal">
+        <div class="modal-wrapper">
+          <div class="modal-close">
+            <a href="#" rel="modal:close" class="modal-close__btn">
+              <img src="../../img/modal-close.png" alt="" />
+            </a>
+          </div>
+          <div class="modal-title">
+            <p>Logic and service</p>
+          </div>
+          <div class="modal-desc">
+            <p>Our main value is our customers. Every day we strive to become better.</p>
+          </div>
+          <div class="modal-info">
+            <ul>
+              <li>AN EVER-GROWING RANGE</li>
+              <li>TRANSPARENT SYSTEM PRICE</li>
+              <li>OWN DESIGN BUREAU</li>
+              <li>SHORT PRODUCTION TIMES</li>
+              <li>A WIDE NETWORK OF DISTRIBUTORS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
       <footer class="footer">
         <div class="container">
           <div class="row">
@@ -918,6 +1013,7 @@
       </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <script src="js/bundle.js"></script>
   </body>
 </html>
